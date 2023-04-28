@@ -21,8 +21,6 @@ function ProjectItem(project) {
     />
     )
   }
-
-
 function Projects() {
   return (
     <div className="projects_container">
