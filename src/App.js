@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Habilities from './components/Habilities';
+import Index from './components/Index';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Text from './components/Text'
+
+function aboutArea(Textsobre) {
+  return <Index text={Textsobre.aboutText} />;
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Navbar />
+        {Text.map(aboutArea)}
+    <Habilities />
+    <Projects />
     </div>
   );
 }

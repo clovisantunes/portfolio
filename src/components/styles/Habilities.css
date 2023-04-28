@@ -1,0 +1,47 @@
+.habilities_container{
+    margin: 10vh 0 0 10vh;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.habilities_container h1{
+    font-size: 4vh;
+    margin-bottom: 10vh;
+}
+.habilities_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+.box{
+    position: relative;
+    text-align: center;
+    background-color: #212121;
+    width: 8rem;
+    aspect-ratio: 1;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2.0rem;
+    border-top-left-radius: 2.0rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border-bottom: solid 3px rgb(157, 74, 230);
+}
+.box:hover{
+    width: 9rem;
+}
+.box img {
+    width: 40%;
+    margin-top: 10%;
+}
+.box p{
+    font-size: 2vh;
+    color: rgb(157, 74, 230);
+}
