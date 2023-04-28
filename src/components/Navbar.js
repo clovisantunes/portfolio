@@ -38,10 +38,10 @@ const Navbar = () => {
                         <a href="#">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Projetos</a>
+                        <a href="#">Contato</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#">Projetos</a>
                     </li>
                 </ul>
             </div>

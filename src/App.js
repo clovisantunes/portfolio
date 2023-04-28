@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/Contact';
 import Habilities from './components/Habilities';
 import Index from './components/Index';
 import Navbar from './components/Navbar';
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         {Text.map(aboutArea)}
     <Habilities />
+    <Contact />
     <Projects />
     </div>
   );
