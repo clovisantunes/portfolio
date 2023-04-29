@@ -1,5 +1,6 @@
 import React from "react";
 import './Index.css';
+
 const Index = (props) => {
     return(
         <div className="index_container">

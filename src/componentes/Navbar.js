@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './Navbar.css';
-
+const curriculum = "https://www.mediafire.com/file/xhvr1i645en0prr/curriculo.pdf/file";
 const Navbar = () => {
     const logo = "<Ƈ.ʂ/>"
     const [burger_class, setBurgerClass] = useState("burger_bar unclicked");
@@ -18,6 +18,11 @@ const Navbar = () => {
         setIsMenuClick(!isMenuClicked);
     }
 
+    function handleScrollInitial () {
+        if (handleScrollInitial)   
+        window.scrollTo(0, 0);
+     }
+
     return (
         <div>
             <nav>
@@ -32,16 +37,16 @@ const Navbar = () => {
                 <h1 className="text">Bem vindo ao meu Portifolio</h1>
                 <ul className="items">
                     <li>
-                        <a href="#">Inicio</a>
+                        <h2 onClick={handleScrollInitial}>Inicio</h2>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <h2 href={curriculum}>Curriculo</h2>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <h2 href="#">Contato</h2>
                     </li>
                     <li>
-                        <a href="#">Projetos</a>
+                        <h2 href="#">Projetos</h2>
                     </li>
                 </ul>
             </div>

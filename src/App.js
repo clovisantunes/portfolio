@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './componentes/Button';
 import Navbar from './componentes/Navbar';
 import Contact from './pages/Contact/Contact';
 import Index from './pages/Index/Index';
@@ -19,6 +20,7 @@ function App() {
       <Contact />
       <Skills />
       <Projects />
+      <Button  />
     </div>
   );
 }
