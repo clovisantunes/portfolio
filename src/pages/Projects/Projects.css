@@ -9,12 +9,14 @@
 }
 .projects_container h1{
     text-align: center;
+    font-size: 5vh;
 }
 .projects_destaque{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 50vh;
+    height: 100%;
+    margin:5vh 0 10vh 0;
 }
 .projects_destaque h2{
     font-size: 4vh;
@@ -33,7 +35,6 @@
     text-align: center;
     position: relative;
     background: #13131F;
-    height: 20em;
     width: 100%;
 }
 

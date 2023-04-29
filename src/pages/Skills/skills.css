@@ -35,7 +35,7 @@
     border-bottom: solid 3px rgb(157, 74, 230);
 }
 .box:hover{
-    width: 9rem;
+    background-color: white;
 }
 .box img {
     width: 40%;

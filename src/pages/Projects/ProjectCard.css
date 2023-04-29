@@ -1,0 +1,64 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #212121;
+    position: relative;
+    margin: 0 1% 0 1%;
+    width: 33%;
+    height: 25em;
+    border-bottom: solid 3px rgb(157, 74, 230);
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+.card:hover{
+    background-color: #333333;
+    cursor: pointer;
+}
+.img {
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+    padding: .2rem;
+}
+.details h3{
+    color: #FFF;
+    font-size: 2.5vh;
+}
+.tecnology{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.tecnology h4{
+    color: #828282;
+    margin: 0 2% 0 0;
+}
+.icoContainer{
+    width: 100%;
+}
+.icoImg{
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    margin-top: 2%;
+}
+.icoImg img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-right: 20%;
+}

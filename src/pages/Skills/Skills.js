@@ -1,6 +1,6 @@
 import React from "react";
-import './styles/Habilities.css';
-const Habilities = () => {
+import './skills.css';
+const Skills = () => {
     return (
         <div className="habilities_container">
             <h1>Habilidades</h1>
@@ -46,4 +46,4 @@ const Habilities = () => {
     )
 }
 
-export default Habilities;
+export default Skills;

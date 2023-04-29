@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/FullProjects.css';
+import './FullProjects.css';
 
 function FullProjects (props) {
     return (
