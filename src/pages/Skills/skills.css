@@ -45,3 +45,11 @@
     font-size: 2vh;
     color: rgb(157, 74, 230);
 }
+@media screen and (max-width: 768px){
+    .habilities_container {
+        margin-left: 1em;
+        margin-bottom: 2em;
+        margin-top: 50rem;
+    }
+   
+    }

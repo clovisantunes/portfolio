@@ -58,3 +58,19 @@ a{
     font-weight: 500;
     color: #828282;
 }
+@media screen and (max-width: 1024px){
+    .contact_text{
+        margin-bottom: 3em;
+    }
+    .contacts {
+        gap: 5.5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .Contact_container{
+        margin-bottom: 5em;
+    }
+    .contacts {
+        gap: 1rem;
+    }
+}

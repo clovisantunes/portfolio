@@ -73,8 +73,8 @@
     border-bottom:  solid 3px rgb(157, 74, 230);
     width: 14%;
     border-radius: 0.2vh;
-    margin:3% 0 5% 0;
-    margin-bottom: vh;
+    margin:3% 0vh 4vh 0vh;
+  
 }
 .projectFull_card{
     align-items: center;
@@ -88,4 +88,22 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
+    margin-bottom: 5em;
+}
+
+@media screen and (max-width: 1024px){
+    .projects_container {
+        margin-top: 15em;
+    }
+}
+@media screen and (max-width: 750px){
+    .projects_container {
+        margin-top: 40em;  
+    }
+    .project_card{
+        flex-direction: column;
+    }
+    .full_project h2{
+        width: 100%;
+    }
 }

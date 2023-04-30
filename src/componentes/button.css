@@ -16,7 +16,7 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-color: rgb(157, 74, 230);
-    border-radius: 10px;
+    border-radius: 1em;
     display: block;
     animation: button_animation 4s linear;
 }
@@ -27,5 +27,11 @@
     }
     100%{
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .button_hidden {
+        background-position: 45%;
     }
 }

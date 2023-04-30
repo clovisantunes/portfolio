@@ -30,9 +30,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .detailsFull:hover{
     background: none;
     cursor: pointer;  
     color: rgb(157, 74, 230);
+}
+@media screen and (max-width: 768px){
+    .cardFull{
+        width: 20em;
+    }
 }

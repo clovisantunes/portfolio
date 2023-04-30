@@ -8,6 +8,7 @@ import './ProjectCard.css';
 function ProjectCard (props) {
     return (
         <div className="card"   id={props.id}>
+            <a href={props.github} target="blank">
            <div className="img">
                 <img src={props.img} /> 
             </div> 
@@ -21,16 +22,16 @@ function ProjectCard (props) {
                     <h4>{props.javaScript}</h4>
                     <h4>{props.api}</h4>
                 </div>
-                <div className="icoContainer">
-                    <div className="icoImg">
-                        <img src={props.iconReact} />
+                <div className="icoContainer" >
+                    <div className="icoImg" >
+                        <img src={props.iconReact}  />
                         <img src={props.iconhtml} />
                         <img src={props.icoCss} />
                         <img src={props.iconjavaScript} />
                     </div>
                 </div>
             </div>
-           
+            </a> 
         </div>
     )
 }

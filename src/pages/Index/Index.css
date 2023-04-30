@@ -10,7 +10,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 15rem 2.5rem;
-   
 }
 .intro{
     width: 50%;
@@ -37,19 +36,19 @@
     animation: up_down 5s infinite;
     transition: all .2s ease-in;
     position: absolute;
-    right: 10vh;
+    right: 8em;
     top: 0;
 }
 
 @keyframes up_down {
     0%{
-        top:13%;
+        top:10em;
     }
     50%{
-        top: 12%;
+        top: 11em;
     }
     100%{
-        top:13%;
+        top:10em;
     }
 }
 .about{
@@ -72,4 +71,39 @@
     text-align: center;
     width: 70%;
     line-height: 180%;
+}
+
+@media screen and (max-width: 1300px){
+    .profile{
+        background-repeat: no-repeat;
+        display: block;
+        position: inherit;
+        width: 35vh;
+        height: 40vh;
+    }
+    
+}
+@media screen and (max-width: 765px){
+    .banner{
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        margin: 10em 0px 5em 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .profile{
+        background-repeat: no-repeat;
+        display: block;
+        position: inherit;
+        width: 35vh;
+        height: 40vh;
+    }
+    .intro{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -22,6 +22,7 @@ return(
     iconhtml={project.icoHtml}
     icoCss={project.icoCss}
     iconjavaScript={project.icoJavaScript}
+    github={project.github}
     />
     )
   }
@@ -31,7 +32,7 @@ return(
     img={projectF.img}
     name={projectF.name}
     id={projectF.id}
-    
+    github={projectF.github}
     />
     )
   }
