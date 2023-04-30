@@ -21,6 +21,20 @@ const Navbar = () => {
     function handleScrollInitial () {
         if (handleScrollInitial)   
         window.scrollTo(0, 0);
+        setMenuClass("menu hidden")
+        setBurgerClass("burger_bar unclicked")
+     }
+     function handleScrollContact () {
+        if (handleScrollInitial)   
+        window.scrollTo(0, 700);
+        setMenuClass("menu hidden")
+        setBurgerClass("burger_bar unclicked")
+     }
+     function handleScrollProjects () {
+        if (handleScrollInitial)   
+        window.scrollTo(0, 2200);
+        setMenuClass("menu hidden")
+        setBurgerClass("burger_bar unclicked")
      }
 
     return (
@@ -43,10 +57,10 @@ const Navbar = () => {
                         <h2 href={curriculum}>Curriculo</h2>
                     </li>
                     <li>
-                        <h2 href="#">Contato</h2>
+                        <h2 onClick={handleScrollContact}>Contato</h2>
                     </li>
                     <li>
-                        <h2 href="#">Projetos</h2>
+                        <h2 onClick={handleScrollProjects}>Projetos</h2>
                     </li>
                 </ul>
             </div>
